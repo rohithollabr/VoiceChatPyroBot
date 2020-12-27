@@ -9,7 +9,7 @@ import youtube_dl
 import player
 
 ydl_opts = {
-    "format": "bestaudio/best"
+    "format": "worstaudio/worst"
 }
 ydl = youtube_dl.YoutubeDL(ydl_opts)
 q = queue.Queue()
